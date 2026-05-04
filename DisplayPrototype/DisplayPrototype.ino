@@ -6,9 +6,9 @@
 #define TFT_SCLK 36
 #define TFT_MISO 37
 #define TFT_MOSI 35
-#define TFT_DC   16
+#define TFT_DC   26 // WRB
 #define TFT_CS   38
-#define TFT_RST  15
+#define TFT_RST  21
 
 Adafruit_ILI9341 tft = Adafruit_ILI9341(TFT_CS, TFT_DC,
       TFT_MOSI, TFT_SCLK, TFT_RST, -1);
